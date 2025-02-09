@@ -24,6 +24,6 @@ Ensure that you have Overwolf installed on your computer.
 ### 2. Clone the Repository
 
 ```bash
-git clone https://your-repository-link
+git clone https://github.com/Abdulaziz6921/overlay.git
 cd your-repository-folder
 ```
