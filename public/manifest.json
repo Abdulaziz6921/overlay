@@ -1,0 +1,35 @@
+{
+	"manifest_version":2,
+	"type":"WebApp",
+	"meta":{
+		"name":"My Overwolf Overlay",
+		"version":"1.0.0",
+		"minimum-overwolf-version":"0.199.0.15",
+		"author":"Abdulaziz",
+		"icon":"mouse-over-icon-png-5.jpg",
+		"icon_gray":"mouse-over-icon-png-5.jpg",
+		"description":"Demo App"
+	},
+     "permissions": ["GameInfo"],
+	"data": {
+
+		"start_window":"MainWindow",
+         "game_targeting": {"type": "dedicated","game_ids": [5594]},
+		"windows":{
+			"MainWindow":{
+					"file":"index.html",
+					"transparent": false,
+					"resizable": true,
+					"use_os_windowing": true,
+					"size": {
+						"width":800,
+						"height":500
+						},
+					"min_size": {
+						"width":400,
+						"height":400
+					}
+				}
+		}
+	}
+}
